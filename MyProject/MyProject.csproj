@@ -96,11 +96,11 @@
     <Compile Include="Role.xaml.cs">
       <DependentUpon>Role.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Sign up.xaml.cs">
-      <DependentUpon>Sign up.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Sign_in.xaml.cs">
       <DependentUpon>Sign_in.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sign_up.xaml.cs">
+      <DependentUpon>Sign_up.xaml</DependentUpon>
     </Compile>
     <Compile Include="Simulator.xaml.cs">
       <DependentUpon>Simulator.xaml</DependentUpon>
@@ -160,11 +160,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Sign up.xaml">
+    <Page Include="Sign_in.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Sign_in.xaml">
+    <Page Include="Sign_up.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

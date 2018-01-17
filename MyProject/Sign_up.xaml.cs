@@ -22,6 +22,7 @@ namespace MyProject
         public Sign_up()
         {
             InitializeComponent();
+           
         }
     }
 }

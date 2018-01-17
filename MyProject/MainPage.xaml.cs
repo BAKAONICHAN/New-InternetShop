@@ -82,7 +82,8 @@ namespace MyProject
         }
         private void Sign_up_Click(object sender, RoutedEventArgs e)
         {
-            mainWindow.Content = new Sign_up();
+            Sign_up signup = new Sign_up();
+            signup.Show();
 
         }
         private void Sign_in_Click(object sender, RoutedEventArgs e)
