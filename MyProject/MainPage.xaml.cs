@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 
 namespace MyProject
 {
+    
     /// <summary>
     /// Логика взаимодействия для MainPage.xaml
     /// </summary>
@@ -90,6 +91,6 @@ namespace MyProject
         {
             mainWindow.Content = new Sign_in();
         }
-        
+       
     }
 }

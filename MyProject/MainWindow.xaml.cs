@@ -20,9 +20,10 @@ namespace MyProject
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+
         public MainWindow()
         {
+           
             InitializeComponent();
             Content = new MainPage(this);
         }

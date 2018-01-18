@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="Sign_up" Height="367.518" Width="564.027">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="208,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="208,145,0,0" VerticalAlignment="Top" Width="220"/>
+        <TextBox Name="Login" HorizontalAlignment="Left" Height="23" Margin="208,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
+        <PasswordBox Name="Password" HorizontalAlignment="Left" Margin="208,145,0,0" VerticalAlignment="Top" Width="220"/>
         <TextBlock Text="Login"    HorizontalAlignment="Left" Margin="56,78,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="37" Width="135"/>
         <TextBlock Text="Password" HorizontalAlignment="Left" Margin="56,145,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="36" Width="135"/>
-        <Button Content="Sign up" HorizontalAlignment="Left" Margin="198,219,0,0" VerticalAlignment="Top" Width="135" Height="56"/>
+        <Button Content="Sign up" HorizontalAlignment="Left" Margin="208,227,0,0" VerticalAlignment="Top" Width="135" Height="56" Click="Sign_Up_End_Click"/>
 
     </Grid>
 </Window>
